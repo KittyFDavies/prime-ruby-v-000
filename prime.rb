@@ -12,6 +12,8 @@ def prime?(number)
     else
       true
     end
+  elsif number <= 0
+    false
   else
     true
   end
