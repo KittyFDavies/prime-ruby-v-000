@@ -12,6 +12,7 @@ def prime?(number)
     elsif number % 7 == 0
       false
     elsif number % 41 == 0
+      false
     else
       true
     end
