@@ -10,5 +10,6 @@ def prime(number)
     elsif number % 7 == 0
       false
     else
-      true  
+      true
+  end 
 end
