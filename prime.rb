@@ -12,5 +12,7 @@ def prime(number)
     else
       true
     end
-  end 
+  else
+    true
+  end
 end
