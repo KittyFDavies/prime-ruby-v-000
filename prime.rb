@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(number)
   if number > 3
-    if number % 2 == 0 
+    if number % 2 == 0
       false
     elsif number % 3 == 0
       false
@@ -16,7 +16,7 @@ def prime?(number)
     elsif number % 17 == 0
       false
     elsif number % 19 == 0
-      false  
+      false
     elsif number % 23 == 0
       false
     elsif number % 29 == 0
@@ -30,4 +30,3 @@ def prime?(number)
     true
   end
 end
-
