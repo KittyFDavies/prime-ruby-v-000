@@ -12,7 +12,7 @@ def prime?(number)
     else
       true
     end
-  elsif number <= 0
+  elsif number <= 1
     false
   else
     true
